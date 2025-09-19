@@ -1,0 +1,5 @@
+D:\Crowbane\CrowbaneArena\obj\Release\net6.0\CrowbaneArena.csproj.AssemblyReference.cache
+D:\Crowbane\CrowbaneArena\obj\Release\net6.0\CrowbaneArena.GeneratedMSBuildEditorConfig.editorconfig
+D:\Crowbane\CrowbaneArena\obj\Release\net6.0\CrowbaneArena.AssemblyInfoInputs.cache
+D:\Crowbane\CrowbaneArena\obj\Release\net6.0\CrowbaneArena.AssemblyInfo.cs
+D:\Crowbane\CrowbaneArena\obj\Release\net6.0\CrowbaneArena.csproj.CoreCompileInputs.cache

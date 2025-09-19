@@ -1,0 +1,78 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <LangVersion>latest</LangVersion>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <Nullable>enable</Nullable>
+    <AssemblyName>CrowbaneArena</AssemblyName>
+    <RootNamespace>CrowbaneArena</RootNamespace>
+    <Version>2.0.0</Version>
+    <Authors>CrowbaneArena Team</Authors>
+    <Description>Remote Event Controller for V Rising - Complete event management system with character swapping, quest management, and boss encounters</Description>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <!-- BepInEx Dependencies -->
+    <Reference Include="BepInEx.Core">
+      <HintPath>libs\BepInEx.Core.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+    <Reference Include="BepInEx.Unity.IL2CPP">
+      <HintPath>libs\BepInEx.Unity.IL2CPP.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+
+    <!-- Unity Dependencies -->
+    <Reference Include="UnityEngine">
+      <HintPath>libs\UnityEngine.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+    <Reference Include="UnityEngine.CoreModule">
+      <HintPath>libs\UnityEngine.CoreModule.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+    <Reference Include="Unity.Mathematics">
+      <HintPath>libs\Unity.Mathematics.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+    <Reference Include="Unity.Entities">
+      <HintPath>libs\Unity.Entities.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+    <Reference Include="Unity.Collections">
+      <HintPath>libs\Unity.Collections.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+
+    <!-- V Rising Game Dependencies -->
+    <Reference Include="ProjectM">
+      <HintPath>libs\ProjectM.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+    <Reference Include="ProjectM.Shared">
+      <HintPath>libs\ProjectM.Shared.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+    <Reference Include="Stunlock.Core">
+      <HintPath>libs\Stunlock.Core.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+
+    <!-- VampireCommandFramework -->
+    <Reference Include="VampireCommandFramework">
+      <HintPath>libs\VampireCommandFramework.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+
+    <!-- Harmony -->
+    <Reference Include="0Harmony">
+      <HintPath>libs\0Harmony.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="README.md" />
+    <None Include=".gitignore" />
+  </ItemGroup>
+</Project>
