@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="6b13d03d-1cea-4437-b109-8a1e45055f31" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/CrowbaneArena.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/CrowbaneArena.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/net472/.NETFramework,Version=v4.7.2.AssemblyAttributes.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/net472/CrowbaneArena.AssemblyInfo.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/net472/CrowbaneArena.AssemblyInfoInputs.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/net472/CrowbaneArena.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/net472/CrowbaneArena.assets.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/net472/CrowbaneArena.csproj.AssemblyReference.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/net472/CrowbaneArena.csproj.CoreCompileInputs.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/net472/CrowbaneArena.csproj.FileListAbsolute.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Release/net6.0/CrowbaneArena.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Release/net6.0/CrowbaneArena.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Release/net6.0/CrowbaneArena.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Release/net6.0/CrowbaneArena.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Release/net6.0/CrowbaneArena.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Release/net6.0/CrowbaneArena.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Release/net6.0/CrowbaneArena.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Release/net6.0/CrowbaneArena.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Release/net6.0/CrowbaneArena.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Release/net6.0/CrowbaneArena.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Release/net6.0/CrowbaneArena.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Release/net6.0/CrowbaneArena.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.ps1" beforeDir="false" afterPath="$PROJECT_DIR$/package.ps1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Commands/EventCommands.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/Commands/EventCommands.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controllers/RemoteEventController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controllers/RemoteEventController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Items.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/Items.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Models/BossEncounter.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/Models/BossEncounter.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Models/EventCharacterTemplate.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/Models/EventCharacterTemplate.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Patches/SystemInitializationPatch.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/Patches/SystemInitializationPatch.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Plugin.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/Plugin.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Services/CharacterSwapService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/Services/CharacterSwapService.cs" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Coyoteq1&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Coyoteq1/CrowbaneArena.git&quot;,
+    &quot;accountId&quot;: &quot;a25f5852-498e-4fff-8787-88ef56cc6278&quot;
+  }
+}</component>
+  <component name="KubernetesApiPersistence">{}</component>
+  <component name="KubernetesApiProvider"><![CDATA[{
+  "configuredContexts": [
+    {
+      "name": "docker-desktop",
+      "kubeConfigUrl": "file://C:/Users/Coyote/.kube/config"
+    }
+  ],
+  "isMigrated": true
+}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
+  <component name="ProjectId" id="32uyyzvkLdzzvrMQvCWi1HDL8Jg" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ChatTagsLlmMigration": "true",
+    "RunOnceActivity.ClientConfigCleanupMigration": "true",
+    "RunOnceActivity.CodyAccountHistoryMigration": "true",
+    "RunOnceActivity.CodyAccountsIdsRefresh": "true",
+    "RunOnceActivity.CodyAssignOrphanedChatsToActiveAccount": "true",
+    "RunOnceActivity.CodyConvertUrlToCodebaseName": "true",
+    "RunOnceActivity.CodyHistoryLlmMigration": "true",
+    "RunOnceActivity.CodyMigrateChatHistory-v2": "true",
+    "RunOnceActivity.CodyProjectSettingsMigration": "true",
+    "RunOnceActivity.DeprecatedChatLlmMigration": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.ToggleCodyToolWindowAfterMigration": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "dart.analysis.tool.window.visible": "false",
+    "dev.sweep.assistant.data.RecentlyUsedFiles": "obj\\project.nuget.cache;src\\Items.cs;src\\Commands\\EventCommands.cs;obj\\CrowbaneArena.csproj.nuget.g.targets;obj\\CrowbaneArena.csproj.nuget.g.props;obj\\CrowbaneArena.csproj.nuget.dgspec.json;.snapshots\\sponsors.md;obj\\Release\\net6.0\\CrowbaneArena.csproj.FileListAbsolute.txt;package.ps1;build.ps1",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "D:/Crowbane/CrowbaneArena",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "sweep.chatMode": "Agent",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-d6986cc7102b-9c94529fcfe0-JavaScript-WS-252.26199.162" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6b13d03d-1cea-4437-b109-8a1e45055f31" name="Changes" comment="" />
+      <created>1758285010287</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1758285010287</updated>
+      <workItem from="1758285011505" duration="1727000" />
+      <workItem from="1758288228372" duration="3495000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
