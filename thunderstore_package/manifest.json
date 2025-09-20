@@ -1,0 +1,8 @@
+{
+    "name": "CrowBaneArena",
+    "version_number": "2.0",
+    "website_url": "https://discord.gg/ZnGGfj69zv",
+    "description": "The Remote Event Controller is an advanced administrative tool that allows game masters to create and manage special event zones where players can participate in custom adventures with temporary character transformations. The system provides complete control over player experience through dynamic teleportation, character swapping, quest progression, and boss encounters..",
+    "dependencies": [
+    ]
+}
