@@ -1,4 +1,10 @@
-# CrowbaneArena - Remote Event Controller v2.0.0
+
+<img width="441" height="497" alt="image" src="https://github.com/user-attachments/assets/bdf12f3d-cfc8-4c64-9ebd-f7b976298e31" />
+
+CrowBane Discorrd https://discord.gg/ZnGGfj69zv
+Vrising modding discord https://discord.gg/ZrYAbDCF55
+
+# CrowbaneArena - Remote Event Controller v2.0.0 
 
 A comprehensive V Rising mod that provides a complete Remote Event Controller system with character swapping, quest management, boss encounters, and teleportation functionality.
 
@@ -325,13 +331,9 @@ This mod is designed to be extensible. Key areas for contribution:
 - Enhanced trigger zone actions
 - Performance optimizations
 
-## 📄 License
-
-This mod is provided as-is for V Rising server administration. Please respect the game's terms of service and use responsibly.
-
 ## 🔄 Version History
 
-### v2.0.0 (Current)
+### v2.0.0 (Current) pre-release 
 - Complete rewrite with comprehensive event system
 - Character swapping with template system
 - Quest management with objective tracking
@@ -348,3 +350,19 @@ This mod is provided as-is for V Rising server administration. Please respect th
 
 **CrowbaneArena - Remote Event Controller v2.0.0**
 *Transforming V Rising server events with professional-grade tools*
+
+future Development Plans
+
+The document also lists some exciting goals for the next release:
+
+    Instant character swapping without needing to reconnect to the server.
+
+    Command shortcuts for easier management.
+
+    Faster loading of event assets.
+
+    A "one-press" command to spawn an arena and loadout.
+
+    An on-screen leaderboard for events. 
+
+Credit Coyoteq1

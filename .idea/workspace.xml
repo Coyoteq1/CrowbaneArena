@@ -4,17 +4,31 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cd49514d-bf91-47e9-bcaf-178009b242e7" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="6b13d03d-1cea-4437-b109-8a1e45055f31" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/CrowbaneArena.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/CrowbaneArena.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/CrowbaneArena.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/obj/CrowbaneArena.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/net472/.NETFramework,Version=v4.7.2.AssemblyAttributes.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/net472/CrowbaneArena.AssemblyInfo.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/net472/CrowbaneArena.AssemblyInfoInputs.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/net472/CrowbaneArena.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/net472/CrowbaneArena.assets.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/net472/CrowbaneArena.csproj.AssemblyReference.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/net472/CrowbaneArena.csproj.CoreCompileInputs.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/net472/CrowbaneArena.csproj.FileListAbsolute.txt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/obj/Release/net6.0/CrowbaneArena.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Release/net6.0/CrowbaneArena.AssemblyInfo.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/obj/Release/net6.0/CrowbaneArena.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Release/net6.0/CrowbaneArena.AssemblyInfoInputs.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/obj/Release/net6.0/CrowbaneArena.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Release/net6.0/CrowbaneArena.assets.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/obj/Release/net6.0/CrowbaneArena.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Release/net6.0/CrowbaneArena.csproj.AssemblyReference.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/obj/Release/net6.0/CrowbaneArena.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Release/net6.0/CrowbaneArena.csproj.CoreCompileInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/obj/project.assets.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Release/net6.0/CrowbaneArena.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Release/net6.0/CrowbaneArena.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.ps1" beforeDir="false" afterPath="$PROJECT_DIR$/package.ps1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Commands/EventCommands.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/Commands/EventCommands.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controllers/RemoteEventController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controllers/RemoteEventController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Items.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/Items.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Models/BossEncounter.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/Models/BossEncounter.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Models/EventCharacterTemplate.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/Models/EventCharacterTemplate.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Patches/SystemInitializationPatch.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/Patches/SystemInitializationPatch.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Plugin.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/Plugin.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Services/CharacterSwapService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/Services/CharacterSwapService.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,11 +50,20 @@
     &quot;accountId&quot;: &quot;a25f5852-498e-4fff-8787-88ef56cc6278&quot;
   }
 }</component>
+  <component name="KubernetesApiPersistence">{}</component>
+  <component name="KubernetesApiProvider"><![CDATA[{
+  "configuredContexts": [
+    {
+      "name": "docker-desktop",
+      "kubeConfigUrl": "file://C:/Users/Coyote/.kube/config"
+    }
+  ],
+  "isMigrated": true
+}]]></component>
   <component name="ProjectColorInfo">{
-  &quot;customColor&quot;: &quot;&quot;,
   &quot;associatedIndex&quot;: 8
 }</component>
-  <component name="ProjectId" id="32w6WYIeGpSV5UvyKBgUrMXb42r" />
+  <component name="ProjectId" id="32uyyzvkLdzzvrMQvCWi1HDL8Jg" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -63,7 +86,7 @@
     "RunOnceActivity.ToggleCodyToolWindowAfterMigration": "true",
     "RunOnceActivity.git.unshallow": "true",
     "dart.analysis.tool.window.visible": "false",
-    "dev.sweep.assistant.data.RecentlyUsedFiles": "README.md",
+    "dev.sweep.assistant.data.RecentlyUsedFiles": "obj\\project.nuget.cache;src\\Items.cs;src\\Commands\\EventCommands.cs;obj\\CrowbaneArena.csproj.nuget.g.targets;obj\\CrowbaneArena.csproj.nuget.g.props;obj\\CrowbaneArena.csproj.nuget.dgspec.json;.snapshots\\sponsors.md;obj\\Release\\net6.0\\CrowbaneArena.csproj.FileListAbsolute.txt;package.ps1;build.ps1",
     "git-widget-placeholder": "master",
     "last_opened_file_path": "D:/Crowbane/CrowbaneArena",
     "node.js.detected.package.eslint": "true",
@@ -85,18 +108,28 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="cd49514d-bf91-47e9-bcaf-178009b242e7" name="Changes" comment="" />
-      <created>1758319321480</created>
+      <changelist id="6b13d03d-1cea-4437-b109-8a1e45055f31" name="Changes" comment="" />
+      <created>1758285010287</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1758319321480</updated>
-      <workItem from="1758319324294" duration="26000" />
-      <workItem from="1758495935105" duration="66000" />
-      <workItem from="1758496015382" duration="302000" />
+      <updated>1758285010287</updated>
+      <workItem from="1758285011505" duration="1727000" />
+      <workItem from="1758288228372" duration="3495000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
