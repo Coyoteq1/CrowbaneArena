@@ -1,8 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "oC9aim+4+AoelJzOyHDtU5YtLZmLsXnoUAr3oMm5dtJQK2bKd6G07Etk+9seTYWVpMGTD0eETxYB7WO1QTVIfA==",
+  "dgSpecHash": "3FlKLn1C79Hstg9cClcGlu9AjqsnCU4Y5LNvoaCqSWRdP3J9zxwAJ4tuk9hn58i5+L/te2OTO8bPFdURc8aSRw==",
   "success": true,
   "projectFilePath": "D:\\Crowbane\\CrowbaneArena\\CrowbaneArena.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\Coyote\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.1\\microsoft.netcore.platforms.1.1.1.nupkg.sha512",
+    "C:\\Users\\Coyote\\.nuget\\packages\\microsoft.netcore.targets\\1.1.3\\microsoft.netcore.targets.1.1.3.nupkg.sha512",
+    "C:\\Users\\Coyote\\.nuget\\packages\\system.collections\\4.3.0\\system.collections.4.3.0.nupkg.sha512",
+    "C:\\Users\\Coyote\\.nuget\\packages\\system.runtime\\4.3.1\\system.runtime.4.3.1.nupkg.sha512",
+    "C:\\Users\\Coyote\\.nuget\\packages\\system.runtime.extensions\\4.3.1\\system.runtime.extensions.4.3.1.nupkg.sha512"
+  ],
   "logs": []
 }

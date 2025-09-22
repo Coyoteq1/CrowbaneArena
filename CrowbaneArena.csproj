@@ -1,5 +1,4 @@
 <Project Sdk="Microsoft.NET.Sdk">
-
   <PropertyGroup>
     <TargetFramework>net6.0</TargetFramework>
     <LangVersion>latest</LangVersion>
@@ -10,7 +9,22 @@
     <Version>2.0.0</Version>
     <Authors>CrowbaneArena Team</Authors>
     <Description>Remote Event Controller for V Rising - Complete event management system with character swapping, quest management, and boss encounters</Description>
+
+    <!-- Disable generating assembly info since we have our own -->
+    <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+    <GenerateTargetFrameworkAttribute>false</GenerateTargetFrameworkAttribute>
+
+    <!-- IL2CPP and Unity Settings -->
+    <ResolveAssemblyWarnOrErrorOnTargetArchitectureMismatch>None</ResolveAssemblyWarnOrErrorOnTargetArchitectureMismatch>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <NoWarn>$(NoWarn);CS0436</NoWarn>
+    <DisableImplicitFrameworkReferences>false</DisableImplicitFrameworkReferences>
   </PropertyGroup>
+
+  <!-- Framework References -->
+  <ItemGroup>
+    <ProjectReference Include="..\Crowbaneframework\src\CrowbaneFramework.csproj" />
+  </ItemGroup>
 
   <ItemGroup>
     <!-- BepInEx Dependencies -->
@@ -27,22 +41,42 @@
     <Reference Include="UnityEngine">
       <HintPath>libs\UnityEngine.dll</HintPath>
       <Private>false</Private>
+      <SpecificVersion>false</SpecificVersion>
+      <EmbedInteropTypes>false</EmbedInteropTypes>
+      <ValidateFileHashes>false</ValidateFileHashes>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
     </Reference>
     <Reference Include="UnityEngine.CoreModule">
       <HintPath>libs\UnityEngine.CoreModule.dll</HintPath>
       <Private>false</Private>
+      <SpecificVersion>false</SpecificVersion>
+      <EmbedInteropTypes>false</EmbedInteropTypes>
+      <ValidateFileHashes>false</ValidateFileHashes>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
     </Reference>
     <Reference Include="Unity.Mathematics">
       <HintPath>libs\Unity.Mathematics.dll</HintPath>
       <Private>false</Private>
+      <SpecificVersion>false</SpecificVersion>
+      <EmbedInteropTypes>false</EmbedInteropTypes>
+      <ValidateFileHashes>false</ValidateFileHashes>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
     </Reference>
     <Reference Include="Unity.Entities">
       <HintPath>libs\Unity.Entities.dll</HintPath>
       <Private>false</Private>
+      <SpecificVersion>false</SpecificVersion>
+      <EmbedInteropTypes>false</EmbedInteropTypes>
+      <ValidateFileHashes>false</ValidateFileHashes>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
     </Reference>
     <Reference Include="Unity.Collections">
       <HintPath>libs\Unity.Collections.dll</HintPath>
       <Private>false</Private>
+      <SpecificVersion>false</SpecificVersion>
+      <EmbedInteropTypes>false</EmbedInteropTypes>
+      <ValidateFileHashes>false</ValidateFileHashes>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
     </Reference>
 
     <!-- V Rising Game Dependencies -->
@@ -54,14 +88,36 @@
       <HintPath>libs\ProjectM.Shared.dll</HintPath>
       <Private>false</Private>
     </Reference>
+    <Reference Include="ProjectM.Behaviours">
+      <HintPath>libs\ProjectM.Behaviours.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+    <Reference Include="ProjectM.Gameplay.Scripting">
+      <HintPath>libs\ProjectM.Gameplay.Scripting.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+    <Reference Include="ProjectM.Gameplay.Systems">
+      <HintPath>libs\ProjectM.Gameplay.Systems.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+    <Reference Include="ProjectM.GeneratedNetCode">
+      <HintPath>libs\ProjectM.GeneratedNetCode.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+    <Reference Include="ProjectM.HUD">
+      <HintPath>libs\ProjectM.HUD.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+    <Reference Include="ProjectM.Misc.Systems">
+      <HintPath>libs\ProjectM.Misc.Systems.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
     <Reference Include="Stunlock.Core">
       <HintPath>libs\Stunlock.Core.dll</HintPath>
       <Private>false</Private>
     </Reference>
-
-    <!-- VampireCommandFramework -->
-    <Reference Include="VampireCommandFramework">
-      <HintPath>libs\VampireCommandFramework.dll</HintPath>
+    <Reference Include="Stunlock.Core.Animation">
+      <HintPath>libs\Stunlock.Core.Animation.dll</HintPath>
       <Private>false</Private>
     </Reference>
 
@@ -69,6 +125,28 @@
     <Reference Include="0Harmony">
       <HintPath>libs\0Harmony.dll</HintPath>
       <Private>false</Private>
+    </Reference>
+
+    <!-- IL2CPP Dependencies -->
+    <Reference Include="Il2Cppmscorlib">
+      <HintPath>libs\Il2Cppmscorlib.dll</HintPath>
+      <Private>false</Private>
+      <SpecificVersion>false</SpecificVersion>
+      <ValidateFileHashes>false</ValidateFileHashes>
+      <ReferenceOutputAssembly>true</ReferenceOutputAssembly>
+      <EmbedInteropTypes>false</EmbedInteropTypes>
+      <ExternallyResolved>true</ExternallyResolved>
+      <Aliases>global,il2cpp</Aliases>
+    </Reference>
+    <Reference Include="Il2CppInterop.Runtime">
+      <HintPath>libs\Il2CppInterop.Runtime.dll</HintPath>
+      <Private>false</Private>
+      <SpecificVersion>false</SpecificVersion>
+    </Reference>
+    <Reference Include="Il2CppInterop.Common">
+      <HintPath>libs\Il2CppInterop.Common.dll</HintPath>
+      <Private>false</Private>
+      <SpecificVersion>false</SpecificVersion>
     </Reference>
   </ItemGroup>
 

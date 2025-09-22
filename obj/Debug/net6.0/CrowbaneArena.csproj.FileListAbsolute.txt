@@ -1,0 +1,3 @@
+D:\Crowbane\CrowbaneArena\obj\Debug\net6.0\CrowbaneArena.csproj.AssemblyReference.cache
+D:\Crowbane\CrowbaneArena\obj\Debug\net6.0\CrowbaneArena.GeneratedMSBuildEditorConfig.editorconfig
+D:\Crowbane\CrowbaneArena\obj\Debug\net6.0\CrowbaneArena.csproj.CoreCompileInputs.cache

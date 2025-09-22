@@ -2,6 +2,7 @@ using HarmonyLib;
 using ProjectM;
 using Unity.Entities;
 using BepInEx.Logging;
+using Il2CppSystem;
 
 namespace CrowbaneArena.Patches
 {
@@ -34,7 +35,7 @@ namespace CrowbaneArena.Patches
                 Plugin.LogInstance.LogInfo("CrowbaneArena - GameDataSystem initialized, starting event system initialization...");
 
                 // Small delay to ensure all systems are fully ready
-                UnityEngine.Coroutines.CoroutineManager.StartCoroutine(DelayedInitialization());
+                StartDelayedInitialization();
             }
             catch (System.Exception ex)
             {
@@ -43,11 +44,17 @@ namespace CrowbaneArena.Patches
             }
         }
 
+        private static void StartDelayedInitialization()
+        {
+            var coroutine = DelayedInitialization();
+            UnityEngine.Coroutines.CoroutineManager.StartCoroutine(coroutine);
+        }
+
         /// <summary>
         /// Delayed initialization to ensure all game systems are ready
         /// Following V Rising guidelines for proper initialization timing
         /// </summary>
-        private static System.Collections.IEnumerator DelayedInitialization()
+        private static Il2CppSystem.Collections.IEnumerator DelayedInitialization()
         {
             // Wait a few frames to ensure everything is ready
             yield return new UnityEngine.WaitForSeconds(2f);

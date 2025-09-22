@@ -1,26 +1,67 @@
 using BepInEx;
 using HarmonyLib;
 using System.Reflection;
-using VampireCommandFramework;
 using Unity.Entities;
 using CrowbaneArena.Controllers;
 using CrowbaneArena.Services;
 using CrowbaneArena.Utilities;
-using BepInEx.Logging;
+using CrowbaneFramework.Core;
+using CrowbaneFramework.Commands;
 
 namespace CrowbaneArena
 {
     [BepInPlugin("com.crowbane.arena", "CrowbaneArena - Remote Event Controller", "2.0.0")]
-    [BepInDependency("gg.deca.VampireCommandFramework")]
-    public class Plugin : BepInEx.Unity.IL2CPP.BasePlugin
+    [BepInDependency("com.crowbane.framework")]
+    public class Plugin : CrowbanePlugin
     {
+            private CrowbaneArena.Commands.CrowbaneCommands _crowbaneCommands = new CrowbaneArena.Commands.CrowbaneCommands();
+
+        public void Update()
+        {
+            // Only run if initialized
+            if (!_initialized) return;
+
+            // Check for 'O' key press
+            if (UnityEngine.Input.GetKeyDown(UnityEngine.KeyCode.O))
+            {
+                // Create a ChatCommandContext for the local player
+                var ctx = CreateLocalPlayerContext();
+                if (ctx != null)
+                {
+                    // Only heal if inside the arena
+                    if (IsPlayerInArena(ctx))
+                    {
+                        _crowbaneCommands.Heal(ctx);
+                        Log.LogInfo("O key pressed: Self-heal triggered inside arena.");
+                    }
+                    else
+                    {
+                        Log.LogInfo("O key pressed: Not in arena, heal not triggered.");
+                    }
+                }
+            }
+        }
+
+        private ChatCommandContext CreateLocalPlayerContext()
+        {
+            // TODO: Implement context creation for the local player
+            // This may require accessing the current player entity and user entity
+            return null;
+        }
+
+        private bool IsPlayerInArena(ChatCommandContext ctx)
+        {
+            // Use the same logic as EnsureInArena in CrowbaneCommands
+            // This may require checking the player's current zone or session
+            return true; // TODO: Implement actual arena check
+        }
         public static Plugin Instance { get; private set; }
         public static ManualLogSource LogInstance { get; private set; }
 
         private Harmony _harmony;
         private bool _initialized = false;
 
-        public override void Load()
+        public override void Initialize()
         {
             Instance = this;
             LogInstance = Log;
@@ -34,8 +75,8 @@ namespace CrowbaneArena
                 _harmony = new Harmony("com.crowbane.arena");
                 _harmony.PatchAll(Assembly.GetExecutingAssembly());
 
-                // Register commands
-                CommandRegistry.RegisterAll();
+                // Register commands with CBC
+                CBC.RegisterCommands(Assembly.GetExecutingAssembly(), this);
 
                 Log.LogInfo("Plugin CrowbaneArena loaded successfully!");
                 Log.LogInfo("Event system will initialize when the game world is ready.");
@@ -47,7 +88,7 @@ namespace CrowbaneArena
             }
         }
 
-        public override bool Unload()
+        public override void OnUnload()
         {
             try
             {
@@ -63,12 +104,10 @@ namespace CrowbaneArena
                 _harmony?.UnpatchSelf();
 
                 Log.LogInfo("CrowbaneArena plugin unloaded successfully!");
-                return true;
             }
             catch (System.Exception ex)
             {
                 Log.LogError($"Error during plugin unload: {ex.Message}");
-                return false;
             }
         }
 
